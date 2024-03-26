@@ -1,0 +1,6 @@
+[package]
+name = "linalgo"
+version = "0.1.0"
+edition = "2021"
+description = "Accessible and performant linear algebra library."
+license = "MIT"
