@@ -1,0 +1,6 @@
+[package]
+name = "linalgo_structs"
+version = "0.1.0"
+edition = "2021"
+description = "Objects available to the linalgo library"
+license = "MIT"

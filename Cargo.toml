@@ -1,6 +1,14 @@
 [package]
 name = "linalgo"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Accessible and performant linear algebra library."
 license = "MIT"
+homepage = "https://github.com/alexagruso/linalgo"
+repository = "https://github.com/alexagruso/linalgo"
+
+[workspace]
+members = ["linalgo_structs"]
+
+[dependencies]
+linalgo_structs = { version = "0.1.0", path = "." }
